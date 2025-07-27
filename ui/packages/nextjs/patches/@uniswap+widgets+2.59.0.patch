@@ -1,0 +1,10 @@
+diff --git a/node_modules/@uniswap/widgets/dist/fonts.css b/node_modules/@uniswap/widgets/dist/fonts.css
+index e12bdae..c2ca0b9 100644
+--- a/node_modules/@uniswap/widgets/dist/fonts.css
++++ b/node_modules/@uniswap/widgets/dist/fonts.css
+@@ -1,4 +1,4 @@
+-@import '~@fontsource/ibm-plex-mono/400.css';
++@import '@fontsource/ibm-plex-mono/400.css';
+ @font-face {
+   font-family: "Inter";
+   font-style: normal;
