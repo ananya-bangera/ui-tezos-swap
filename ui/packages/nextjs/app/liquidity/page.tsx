@@ -204,12 +204,15 @@ export default function SwapPage() {
       destinationChain: dst?.chain,
       timelock,
       hashlock: "0x" + hashHex,
-
       srcTokenAddress: src?.tokenAddress,
       dstTokenAddress: dst?.tokenAddress,
       srcQty: Number(srcAmount),
       dstQty: Number(dstAmount),
-      orderHash: ""
+      orderHash: "",
+
+      secret: "0x" + preimageHex,
+      time: parseInt(time)
+
     };
 
     try {
@@ -256,8 +259,8 @@ export default function SwapPage() {
             <div>{`[${i + 1}] ${logStatement}`}</div>
           ))}
         </div>
-      </div> 
- 
+      </div>
+
 
 
       {/* Right: Swap UI (unchanged) */}
